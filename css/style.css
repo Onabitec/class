@@ -1,0 +1,34 @@
+*,body{
+    margin: 0;
+    padding: 0;
+
+}
+#main{
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(-45deg,#965455 ,#373435);
+    background-image: url(../img/pexels-vanessa-loring-7869245.jpg);
+    background-position: cover;
+    background-repeat: no-repeat;
+}
+.nav{
+    background-color: aliceblue;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin-right: 20px;
+    margin-top: 10px;
+}
+.nav ul li::after{
+    content: "";
+    border-bottom: solid rgb(15, 138, 172) 5px;
+    width: 50px;
+    height: 2px;
+    display: block;
+}
